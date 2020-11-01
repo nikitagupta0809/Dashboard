@@ -34,7 +34,7 @@ export default class Chart extends Component {
         // Add X axis --> it is a date format
         var x = d3.scaleTime()
                   .domain([1,12])
-                  .range([ 10, w-10]);
+                  .range([ 10, w-20]);
         svg.append("g")
         .attr("transform", "translate(0," + (h-40) + ")")
         .attr("class", "ticks")
