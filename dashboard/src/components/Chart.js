@@ -5,6 +5,7 @@ export default class Chart extends Component {
     componentDidMount() {
         this.drawChart();
       }
+      
       drawChart() {
         const data = this.props.data;
         const attr = this.props.attr;
