@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import Chart from "../../components/Chart";
 
 import { changeAttribute, selectAttribute } from './chartSlice'
 
@@ -9,7 +8,6 @@ export function Tab(){
 
     const selectedAttribute = useSelector(selectAttribute)
     const dispatch = useDispatch()
-    const [initial] = useState('retailSales')
     
     return (
         <div>

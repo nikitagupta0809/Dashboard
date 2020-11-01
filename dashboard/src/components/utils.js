@@ -1,4 +1,3 @@
-import * as d3 from "d3";
 
 export const formatCurrency = (num) => {
     console.log(USD.format(num))
